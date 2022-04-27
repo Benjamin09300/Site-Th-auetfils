@@ -482,6 +482,35 @@ mark,
   max-width: 25rem;
   height: 25rem;
 }
+.img-tci {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+img.img-tci{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tri-bouton{
+  text-align: center;
+}
+.bouton{
+  display: inline-block;
+  border: 0px;
+  width: 6rem;
+  height: 4rem;
+  margin-top: 3rem;
+  margin-right: 0,5rem;
+  padding: 0px;
+  border-radius: 50%;
+}
+.mini-img{
+  width: 6rem;
+  height: 4rem;
+  margin: 0px;
+  border-radius: 50%;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
