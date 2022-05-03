@@ -482,6 +482,9 @@ mark,
   max-width: 25rem;
   height: 25rem;
 }
+.marg-vid{
+  padding-top: 3rem;
+}
 .img-tci {
   max-width: 100%;
   height: auto;
@@ -504,6 +507,12 @@ img.img-tci{
   margin-right: 0,5rem;
   padding: 0px;
   border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.button.bouton:active, button.bouton:focus{
+  outline: none;
+  outline-style:none;
+  outline-width:0;
 }
 .mini-img{
   width: 6rem;
@@ -511,7 +520,23 @@ img.img-tci{
   margin: 0px;
   border-radius: 50%;
 }
-
+.Bouton-part{
+  display: inline-block;
+  border: none;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  padding: 0px;
+  background-repeat: no-repeat;
+}
+button.Bouton-part:active, button.Bouton-part:focus{
+  outline: none;
+  outline-style:none;
+  outline-width:0;
+}
+.img-part{
+  max-width: 100%;
+  height:auto;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -1163,15 +1188,6 @@ pre code {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .col-md-pre-1 {
-    padding-right: 10rem;
-    padding-left: 0.50rem;
-  }
-  .col-md-pre-2{
-    padding-right: 0.50rem;
-    padding-left: 10rem;
-  }
-
   .order-md-first {
     order: -1;
   }
@@ -10194,7 +10210,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/banque-d-images-gratuites-libres-de-droits423-1560x1138.jpg");
+  background-image: url("../assets/img/portfolio/banque-d-images-gratuites-libres-de-droits423-1560x1138.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10456,6 +10472,9 @@ header.masthead .masthead-heading {
 .team-member h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+.pad-for{
+  padding-top: 3rem;
 }
 
 section#contact {
