@@ -29,7 +29,8 @@
     <body id="page-top">
       <header class="masthead">
           <div class="container">
-              <div class="masthead-heading text-uppercase">Nous Contactez !</div>
+            <div class="masthead-subheading">Nous Contactez !</div>
+              <div class="masthead-heading text-uppercase">Vert Toucan</div>
           </div>
       </header>
       <section class="page-section">
@@ -67,7 +68,9 @@
               </div>
             </div>
             <!-- Submit Button-->
-            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyer Message</button></div>
+            <div class="text-center">
+              <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyer Message</button>
+            </div>
           </form>
           <?php
           if (isset($_POST["mes"])) {
