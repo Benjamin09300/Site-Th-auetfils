@@ -10212,7 +10212,7 @@ img::-moz-selection {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size:6 em;
+    font-size:6em;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
@@ -10220,7 +10220,7 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav .navbar-brand-liste {
-    font-size:6 em;
+    font-size:0.5em;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand-liste img {
