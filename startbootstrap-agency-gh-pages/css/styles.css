@@ -4048,6 +4048,14 @@ input[type=button].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+.navbar-brand-liste {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
 .navbar-log{
   border-radius: 50%;
 }
@@ -4056,6 +4064,9 @@ input[type=button].btn-block {
   height: auto;
 }
 .navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-brand-liste:hover, .navbar-brand-liste:focus {
   text-decoration: none;
 }
 
@@ -4324,6 +4335,12 @@ input[type=button].btn-block {
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
 }
+.navbar-light .navbar-brand-liste {
+  color: rgba(0, 0, 0, 0.9);
+}
+.navbar-light .navbar-brand-liste:hover, .navbar-light .navbar-brand-liste:focus {
+  color: rgba(0, 0, 0, 0.9);
+}
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -4360,6 +4377,12 @@ input[type=button].btn-block {
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #fff;
+}
+.navbar-dark .navbar-brand-liste {
+  color: #fff;
+}
+.navbar-dark .navbar-brand-liste:hover, .navbar-dark .navbar-brand-liste:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -10160,6 +10183,16 @@ img::-moz-selection {
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
+#mainNav .navbar-brand-liste {
+  color: #fed136;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand-liste img {
+  height: 1.5rem;
+}
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
@@ -10186,6 +10219,14 @@ img::-moz-selection {
     height: 8rem;
     transition: height 0.3s ease-in-out;
   }
+  #mainNav .navbar-brand-liste {
+    font-size:6 em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand-liste img {
+    height: 2.5rem;
+    transition: height 0.3s ease-in-out;
+  }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -10197,6 +10238,13 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
     height: 4rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand-liste {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand-liste svg,
+#mainNav.navbar-shrink .navbar-brand-liste img {
+    height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
