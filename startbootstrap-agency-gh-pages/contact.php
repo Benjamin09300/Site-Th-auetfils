@@ -79,7 +79,7 @@
 
             $retour = mail("TCI.Agence@gmail.com",$_POST["sujet"],$message,"From:contact@site.fr" . "\r\n" . "Reply-to:" . $_POST["email"]);
             if($retour){
-              echo "<div class="container pad-for"><div class="text-center"><p>Le mail à bien été envoyer.</p></div></div>";
+              echo "<div class='container'><div class='text-center'><p>Le mail à bien été envoyer.</p></div></div>";
             }
           }
           ?>
