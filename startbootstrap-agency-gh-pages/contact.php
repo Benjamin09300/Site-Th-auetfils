@@ -77,7 +77,7 @@
             Téléphone : " . $_POST["tel"] . "
             Message : " . $_POST["mes"];
 
-            $retour = mail("thomas.jasmin@hotmail.fr",$_POST["sujet"],$message,"From:contact@site.fr" . "\r\n" . "Reply-to:" . $_POST["email"]);
+            $retour = mail("mail.client@hotmail.fr",$_POST["sujet"],$message,"From:contact@site.fr" . "\r\n" . "Reply-to:" . $_POST["email"]);
             if($retour){
               echo "<p>Le mail à bien été envoyer.</p>";
             }
