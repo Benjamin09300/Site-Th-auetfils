@@ -48,7 +48,7 @@
                   <input class="form-control" id="email" type="email" placeholder="E-mail *" name="email" required />
                 </div>
                 <div class="form-group">
-                  <!-- Email address input-->
+                  <!-- sujet address input-->
                   <label>Sujet</label>
                   <input class="form-control" id="sujet" type="text" placeholder="Sujet *" name="sujet" required />
                 </div>
