@@ -62,8 +62,8 @@
               <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
                   <!-- Message input-->
-                  <label>Message</label>
-                  <textarea class="form-control" id="message" placeholder="Message *" name="mes" required></textarea>
+                  <label>Descriptif de votre projet</label>
+                  <textarea class="form-control" id="message" placeholder="Descriptif *" name="mes" required></textarea>
                 </div>
               </div>
             </div>
