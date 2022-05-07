@@ -79,24 +79,54 @@ function photos13(){
 
 function photosv1(){
   document.getElementById('vphotos').src='assets/img/portfolio/1.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
 
 function photosv2(){
   document.getElementById('vphotos').src='assets/img/portfolio/2.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
 
 function photosv3(){
   document.getElementById('vphotos').src='assets/img/portfolio/3.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
 
 function photosv4(){
   document.getElementById('vphotos').src='assets/img/portfolio/4.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
 
 function photosv5(){
   document.getElementById('vphotos').src='assets/img/portfolio/5.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
 
 function photosv6(){
   document.getElementById('vphotos').src='assets/img/portfolio/6.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
+}
+
+function photosv7(){
+  document.getElementById('vphotos').src='assets/img/portfolio/7.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
+}
+
+function photosv8(){
+  document.getElementById('vphotos').src='assets/img/portfolio/8.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
+}
+
+function photosv9(){
+  document.getElementById('vphotos').src='assets/img/portfolio/9.jpg';
+  var text = "";
+  document.getElementById('leg-img-vt').innerHTML=text;
 }
