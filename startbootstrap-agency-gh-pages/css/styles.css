@@ -482,6 +482,11 @@ mark,
   max-width: 25rem;
   height: 25rem;
 }
+.img-pre-logo-1{
+  max-width: 40rem;
+  height: auto;
+  border-radius: 20%;
+}
 .marg-vid{
   padding-top: 3rem;
 }
@@ -608,7 +613,7 @@ img.img-vt{
   display: inline-block;
   border: none;
   margin-top: 3rem;
-  margin-right: 1rem;
+  margin-right: 5rem;
   padding: 0px;
   background-repeat: no-repeat;
 }
@@ -2576,7 +2581,7 @@ textarea.form-control {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
 }
 .btn.disabled, .btn:disabled {
-  opacity: 0.65;
+  opacity: 1;
 }
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
@@ -4136,16 +4141,22 @@ input[type=button].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
+  margin-right: 0.5rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
 }
 .navbar-log{
-  border-radius: 50%;
+  border-radius: 10% / 30%;
 }
 .n-contact{
-  max-width: 40rem;
+  max-width: 35rem;
   height: auto;
+  border-radius: 10%;
+  margin-top: 2rem;
+  border-image: linear-gradient(#ffd700, #4d9f0c) 30;
+  border: 0.5rem solid;
+  border-color: #303030;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -10041,11 +10052,25 @@ a.text-dark:hover, a.text-dark:focus {
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
 }
+h2.text-background span{
+  background-clip: content-box;
+  background-color: #303030;
+}
+h3.text-background-2 span{
+  background-clip: content-box;
+  background-color:	#303030;
+}
+.text-btn{
+  color: #303030;
+}
+
 .text-pre{
   padding-top: 2rem;
 }
 .text-pre-2{
   padding-top: 1rem;
+  text-align: left;
+  margin-left: 23rem;
 }
 
 .text-hide {
@@ -10277,7 +10302,7 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand-liste img {
-  height: 1.5rem;
+  height: 1rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10310,7 +10335,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand-liste img {
-    height: 2.5rem;
+    height: 2rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10330,7 +10355,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand-liste svg,
 #mainNav.navbar-shrink .navbar-brand-liste img {
-    height: 1.5rem;
+    height: 1rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10344,7 +10369,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/portfolio/banque-d-images-gratuites-libres-de-droits423-1560x1138.jpg");
+  background-image: url("../assets/img/portfolio/panorama.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
