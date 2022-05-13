@@ -10075,10 +10075,14 @@ h3.text-background-2 span{
 .text-pre{
   padding-top: 2rem;
 }
+.liste-pre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
 .text-pre-2{
   padding-top: 1rem;
-  text-align: left;
-  margin-left: 37%;
 }
 
 .text-hide {
