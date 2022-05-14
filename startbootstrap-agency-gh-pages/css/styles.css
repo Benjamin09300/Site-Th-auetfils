@@ -2131,9 +2131,23 @@ pre code {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+textarea.form-control{
+  margin-left: 1rem;
+}
+.label-form{
+  margin-left: 1rem;
+}
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
+  }
+}
+@media (max-width: 767.98px){
+  .form-control{
+    margin-left: 1rem;
+  }
+  .label-1{
+    margin-left: 1rem;
   }
 }
 .form-control::-ms-expand {
@@ -4164,6 +4178,17 @@ input[type=button].btn-block {
   border-image: linear-gradient(#ffd700, #4d9f0c) 30;
   border: 0.5rem solid;
   border-color: #303030;
+}
+@media (max-width: 575.98px){
+  .n-contact{
+    max-width: 75%;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 2rem;
+    border-image: linear-gradient(#ffd700, #4d9f0c) 30;
+    border: 0.5rem solid;
+    border-color: #303030;
+  }
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -10314,7 +10339,7 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 4rem;
 }
 #mainNav .navbar-brand-liste {
   color: #fed136;
@@ -10352,6 +10377,7 @@ img::-moz-selection {
     height: 8rem;
     transition: height 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand-liste {
     font-size:0.5em;
     transition: font-size 0.3s ease-in-out;

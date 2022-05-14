@@ -40,29 +40,29 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <!-- Name input-->
-                  <label>Nom</label>
+                  <label class="label-1">Nom</label>
                   <input class="form-control" id="name" type="text" placeholder="Nom *" name="name" required/>
                 </div>
                 <div class="form-group">
                   <!-- Email address input-->
-                  <label>E-mail</label>
+                  <label class="label-1">E-mail</label>
                   <input class="form-control" id="email" type="email" placeholder="E-mail *" name="email" required />
                 </div>
                 <div class="form-group">
                   <!-- sujet address input-->
-                  <label>Sujet</label>
+                  <label class="label-1">Sujet</label>
                   <input class="form-control" id="sujet" type="text" placeholder="Sujet *" name="sujet" required />
                 </div>
                 <div class="form-group mb-md-0">
                   <!-- Phone number input-->
-                  <label>Numéro</label>
+                  <label class="label-1">Numéro</label>
                   <input class="form-control" id="phone" type="tel" placeholder="Téléphone *" name="tel" required/>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
                   <!-- Message input-->
-                  <label>Descriptif de votre projet</label>
+                  <label class="label-form">Descriptif de votre projet</label>
                   <textarea class="form-control" id="message" placeholder="Descriptif *" name="mes" required></textarea>
                 </div>
               </div>
