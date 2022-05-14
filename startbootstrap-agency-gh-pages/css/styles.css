@@ -4038,6 +4038,11 @@ input[type=button].btn-block {
   display: block;
   padding: 0.5rem 1rem;
 }
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
@@ -4098,6 +4103,10 @@ input[type=button].btn-block {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
+}
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  width: 100%;
 }
 
 .tab-content > .tab-pane {
