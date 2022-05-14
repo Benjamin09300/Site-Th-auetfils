@@ -4179,9 +4179,9 @@ input[type=button].btn-block {
   border: 0.5rem solid;
   border-color: #303030;
 }
-@media (max-width: 575.98px){
+@media (max-width: 767.98px){
   .n-contact{
-    max-width: 75%;
+    max-width: 90%;
     height: auto;
     border-radius: 10%;
     margin-top: 2rem;
@@ -10269,7 +10269,7 @@ p {
 .page-section-contact {
   padding: 6rem 0;
   background-image: url(assets\img\map-image.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -10421,7 +10421,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
