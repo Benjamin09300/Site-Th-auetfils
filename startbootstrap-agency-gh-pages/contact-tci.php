@@ -30,7 +30,7 @@
       <header class="masthead-tci">
           <div class="container">
             <div class="masthead-subheading">Nous Contactez !</div>
-              <div class="masthead-heading text-uppercase">Théau Concept Inginiérie</div>
+              <div class="masthead-heading text-uppercase">Théau Concept Ingénierie</div>
           </div>
       </header>
       <section class="page-section">
